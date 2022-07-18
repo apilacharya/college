@@ -4,8 +4,9 @@ int main()
     int c=0;
     char name[50];
     printf("Enter name of student \n");
+    scanf("%s", name);
 
-    for(int i=0; name[i] != "\0"; i++)
+    for(int i=0; name[i] != '\0'; i++)
     {
         c=c+1;
     }
